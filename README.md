@@ -173,6 +173,7 @@ Industry standards, threat frameworks, and evaluation benchmarks for AI security
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - Framework for managing AI risks throughout the AI lifecycle.
 - [Agent Threat Rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - Open detection-rule standard for AI agent threats across ten categories, with MITRE ATLAS and OWASP crosswalks. Sigma-style executable rules, MIT-licensed.
 - [agent-evidence-vectors](https://github.com/probityai/agent-evidence-vectors) - Conformance vectors and a reference Go verifier for in-toto attestations of AI agent execution, plus SCITT/COSE carriage vectors that keep their own checker until the verifier reads them. Each outcome is recomputed from the bytes the attestation carries.
+- [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) - Open benchmark that runs 18 decision models and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks, covering prompt attacks, content, denied topics, profanity, PII and grounding, and reports balanced accuracy and cost per 1,000 checks.
 
 ### Books
 Essential books covering AI security, adversarial ML, and security applications.
