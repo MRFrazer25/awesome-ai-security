@@ -116,6 +116,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - Rust control layer for local LLM agents with writer and evidence gates, memory and replay governance, and rollback, so agent self-modification stays inspectable and reversible.
 - [API Relay Audit](https://github.com/toby-bridges/api-relay-audit) - Local Python security audit for AI API relays and LLM proxies, with probes for hidden instructions, package-command rewriting, error leakage and SSE anomalies, and Markdown reports.
 - [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) - Open-source local input firewall for AI agents that scans text, files, PDFs, images and QR codes for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories, shipped as a CLI, Python API, MCP server and Claude Code hook.
+- [llm-redteam-banking-checklist](https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist) - Go-live gate for LLM red teaming in banking that scores findings by harm category and severity, checks five go/no-go gates, and fails pytest or GitHub Actions when a gate is red.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
