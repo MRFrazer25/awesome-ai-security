@@ -119,6 +119,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [Small Print](https://smallprint.dev) - Public record of the tool descriptions, input schemas and skill instructions that MCP servers, agent skills and plugins give an agent, kept for every version, with each change diffed and graded by a published rule.
 - [jes](https://github.com/everafterlabs/jes) - Open-source guardrails for AI agents that send each prompt, retrieved page, tool call and response to a decision model such as Jev for prompt-injection and jailbreak checks, and redact secrets and PII locally.
 - [llm-agent-security-principles](https://github.com/shimo4228/llm-agent-security-principles) - Agent Skill with three design principles, an anti-patterns checklist and review questions for autonomous LLM agents: dangerous capabilities left unimplemented, accumulated state treated as untrusted on read-back, and at most one pinned external side-effect adapter per agent process.
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Local-first static scanner for OpenClaw and ClawHub agent skills that flags prompt injection, hidden text, credential reads, remote-exec installs and persistence before install, and keeps an integrity baseline to catch later changes to skill files.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
