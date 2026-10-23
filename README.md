@@ -118,6 +118,7 @@ Security tools for testing and defending AI systems against adversarial attacks.
 - [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) - Open-source local input firewall for AI agents that scans text, files, PDFs, images and QR codes for prompt injection, credential leaks and data exfiltration with 1,554 patterns across 118 categories, shipped as a CLI, Python API, MCP server and Claude Code hook.
 - [Small Print](https://smallprint.dev) - Public record of the tool descriptions, input schemas and skill instructions that MCP servers, agent skills and plugins give an agent, kept for every version, with each change diffed and graded by a published rule.
 - [jes](https://github.com/everafterlabs/jes) - Open-source guardrails for AI agents that send each prompt, retrieved page, tool call and response to a decision model such as Jev for prompt-injection and jailbreak checks, and redact secrets and PII locally.
+- [llm-agent-security-principles](https://github.com/shimo4228/llm-agent-security-principles) - Agent Skill with three design principles, an anti-patterns checklist and review questions for autonomous LLM agents: dangerous capabilities left unimplemented, accumulated state treated as untrusted on read-back, and at most one pinned external side-effect adapter per agent process.
 
 ### AI Pentesting
 Using AI assistants and agents for automated penetration testing and security assessments.
